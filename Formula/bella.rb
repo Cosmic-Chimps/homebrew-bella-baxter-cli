@@ -7,30 +7,30 @@
 class Bella < Formula
   desc "Bella Baxter CLI — manage and consume secrets from Bella Baxter"
   homepage "https://bella-baxter.io"
-  version "0.1.1-preview.105"
+  version "0.1.1-preview.108"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/cosmic-chimps/bella-baxter-cli/releases/download/v0.1.1-preview.105/cli-osx-arm64"
-      sha256 "e67826d252c7f20239d2623025fabcc81d81ba8e58b5780248c091fead0e422b"
+      url "https://github.com/cosmic-chimps/bella-baxter-cli/releases/download/v0.1.1-preview.108/cli-osx-arm64"
+      sha256 "a69f91c308ca2ba61313688c8c82d8e77891c2f4fd91c6243d20366f75635ef9"
     end
 
     on_intel do
-      url "https://github.com/cosmic-chimps/bella-baxter-cli/releases/download/v0.1.1-preview.105/cli-osx-x64"
-      sha256 "f9a446ff457f6b99e900845af8bc12e3920eefbe59433d8de86557a98bcc4f65"
+      url "https://github.com/cosmic-chimps/bella-baxter-cli/releases/download/v0.1.1-preview.108/cli-osx-x64"
+      sha256 "74edd09c472ce48a8eb9da8e97796ccd5b7ac48ff2d23db1bf6f50f552e9fb7b"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/cosmic-chimps/bella-baxter-cli/releases/download/v0.1.1-preview.105/cli-linux-arm64"
-      sha256 "91cf8e9dafef1192aeef5db230efb2fac209e3813326c6adf8e9c2124c5b2753"
+      url "https://github.com/cosmic-chimps/bella-baxter-cli/releases/download/v0.1.1-preview.108/cli-linux-arm64"
+      sha256 "c147e83095af6ddf933e3051bdb42bdded7202dc5ce69d261226612530d8f255"
     end
 
     on_intel do
-      url "https://github.com/cosmic-chimps/bella-baxter-cli/releases/download/v0.1.1-preview.105/cli-linux-x64"
-      sha256 "a86d1793089b94d53cd38740efed3fefd63510cdd19939253a82e62ab5ae4f80"
+      url "https://github.com/cosmic-chimps/bella-baxter-cli/releases/download/v0.1.1-preview.108/cli-linux-x64"
+      sha256 "5f161301a5f5a5fdb2e2f7b7fedb3ee032827234ddc3c21a47564f347c492981"
     end
   end
 
